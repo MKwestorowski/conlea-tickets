@@ -40,7 +40,6 @@
 .front, .back {
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
-    -o-backface-visibility: hidden;
     backface-visibility: hidden;
 
     position: absolute;
@@ -167,7 +166,7 @@
     width: 14%;
     margin: 0 auto;
     margin-bottom: 20px;
-    ;
+
 
 }
 
