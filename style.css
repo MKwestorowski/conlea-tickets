@@ -48,7 +48,7 @@
 }
 
 .front {
-    background: url(https://images.fandango.com/r1.0.70/redesign/areas/registration/img/worry-free-tickets-oj.svg) 0 0 no-repeat;
+    background: url(worry-free-tickets-oj.svg) 0 0 no-repeat;
     background-position: center;
     z-index: 2;
     background-color: rgb(249, 249, 249);
@@ -67,15 +67,14 @@
 .front .name {
     font-size: 2em;
     display: inline-block;
-    background: rgba(171, 151, 151, 0.9);
-    color: #f8f8f8;
-    font-family: Courier;
+    background: rgb(229, 207, 199);
+    color: #686868;
+    font-family: Source Sans Pro;
     padding: 5px 10px;
     border-radius: 5px;
     bottom: 60px;
     left: 25%;
     position: absolute;
-    text-shadow: 0.1em 0.1em 0.05em #333;
 
     -webkit-transform: rotate(-20deg);
     -moz-transform: rotate(-20deg);
@@ -86,31 +85,38 @@
 
 .back-title {
     font-weight: bold;
-    color: #686868;
+    color: #e65f3a;
     position: absolute;
-    top: 180px;
+    top: 30px;
     left: 0;
     right: 0;
     text-align: center;
-    text-shadow: 0.1em 0.1em 0.05em black;
-    font-family: Courier;
+    font-family: Source Sans Pro;
     font-size: 2em;
 }
 
-.back p {
+.back ul {
     position: absolute;
-    bottom: 40px;
+    bottom: 120px;
     left: 0;
     right: 0;
     text-align: center;
     padding: 0 20px;
-    font-family: arial;
     line-height: 2em;
+    font-size: 20px;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    list-style: none;
+    color: #686868;
+    font-weight: 200;
+    font-family: Source Sans Pro;
 }
 
 .Tickets {
-    max-width: 100%;
-    margin-bottom: 0;
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .TicketBox {
@@ -121,11 +127,14 @@
 
 
 .TicketsTitle {
+    font-family: Source Sans Pro;
     font-size: 40px;
     text-align: center;
     font-style:italic;
     font-weight:normal;
     color:#e65f3a;
+    float: left;
+    margin-left: 100px;
 
 
 }
@@ -135,7 +144,8 @@
 ;
 }
 .buttonBuy {
-    background-color: #e65f3a;
+    font-family: Source Sans Pro;
+    background-color: #E2562F;
     color: white;
     display: block;
     margin: 0 auto;
@@ -159,15 +169,18 @@
     background-repeat: no-repeat;
 }
 .linia {
+    display: block;
+    width: 100%;
     border-style: solid;
-    border-bottom: 1px solid;
+    border-bottom-width: 1px;
     border-color: rgb(230, 95, 58);
+    float: right;
     border-top: 0;
-    width: 14%;
-    margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
+}
 
-
+.container {
+    width: 100%;
 }
 
 @media screen and (max-width: 450px){
